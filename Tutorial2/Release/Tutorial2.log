@@ -1,0 +1,24 @@
+﻿Build started 02/12/2015 19:59:50.
+     1>Project "Z:\Documents\compArch\Tutorial2\Tutorial2\Tutorial2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Tutorial2.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt sharing.cpp
+         sharing.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Documents\compArch\Tutorial2\Release\Tutorial2.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\Documents\compArch\Tutorial2\Release\Tutorial2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Documents\compArch\Tutorial2\Release\Tutorial2.lib" /MACHINE:X86 /SAFESEH Release\bakery.obj
+         Release\helper.obj
+         Release\mcs.obj
+         Release\sharing.obj
+         Release\testAndTestAndSet.obj
+         Release\stdafx.obj
+         Release\TestAndSet.obj
+         Release\ticket.obj
+         Release\Tutorial2.obj
+     1>LINK : warning LNK4067: ambiguous entry point; selected 'mainCRTStartup'
+         Generating code
+         Finished generating code
+         Tutorial2.vcxproj -> Z:\Documents\compArch\Tutorial2\Release\Tutorial2.exe
+     1>Done Building Project "Z:\Documents\compArch\Tutorial2\Tutorial2\Tutorial2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.29

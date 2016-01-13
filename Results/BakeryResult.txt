@@ -1,0 +1,25 @@
+2XZQM62 Windows 7 Enterprise (64 bit) sharing (32bit EXE) DEBUG [BakeryLock] NCP
+US=8 RAM=8GB 02-Dec-2015 18:09:20
+COUNTER64 NOPS=100000 NSECONDS=2 OPTYP=4
+Intel64 family 6 model 60 stepping 3 Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+L1 D    32K L 64 K  8 N   64
+L1 I    32K L 64 K  8 N   64
+L2 U   256K L 64 K  8 N  512
+L3 U  8192K L 64 K 16 N 8192
+Warning: cnt3 shares cache line used by cnt0
+
+sharing  nt    rt             ops   rel
+-------  --    --             ---   ---
+     0%   1  2.00      24,100,000  1.00
+     0%   2  2.01      31,200,000  1.29
+     0%   4  2.01      12,900,000  0.54
+     0%   8  2.07       8,800,000  0.37
+
+sharing/nt/rt/ops/incs
+0/1/2005/24100000/24100000
+0/2/2011/31200000/31200000
+0/4/2009/12900000/12900000
+0/8/2072/8800000/8800000
+
+
+Press key to quit...

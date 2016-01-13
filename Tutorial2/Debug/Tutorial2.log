@@ -1,0 +1,23 @@
+﻿Build started 07/12/2015 16:38:05.
+     1>Project "Z:\Documents\compArch\Tutorial2\Tutorial2\Tutorial2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Tutorial2.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt mcs.cpp sharing.cpp
+         sharing.cpp
+         mcs.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Documents\compArch\Tutorial2\Debug\Tutorial2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\Documents\compArch\Tutorial2\Debug\Tutorial2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Documents\compArch\Tutorial2\Debug\Tutorial2.lib" /MACHINE:X86 Debug\bakery.obj
+         Debug\helper.obj
+         Debug\mcs.obj
+         Debug\sharing.obj
+         Debug\testAndTestAndSet.obj
+         Debug\stdafx.obj
+         Debug\TestAndSet.obj
+         Debug\ticket.obj
+         Debug\Tutorial2.obj
+         Tutorial2.vcxproj -> Z:\Documents\compArch\Tutorial2\Debug\Tutorial2.exe
+     1>Done Building Project "Z:\Documents\compArch\Tutorial2\Tutorial2\Tutorial2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.76

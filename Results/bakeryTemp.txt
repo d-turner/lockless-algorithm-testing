@@ -1,0 +1,49 @@
+#include "stdafx.h"
+#include "bakery.h"
+using namespace std;
+BakeryLock::BakeryLock(int setThreads)
+{
+	threads = setThreads;
+}
+
+void BakeryLock::acquire(int pid) // pid is thread ID
+{
+	choosing[pid] = 1;
+	int max = 0;
+
+	vector<int>::iterator i = number.begin();
+	for (;i !=number.end(); i++) { // find maximum ticket
+		if (*i>max)
+			max = *i;
+	}
+	number[pid] = max + 1; // our ticket number is maximum ticket found + 1
+	choosing[pid] = 0;
+	
+	vector<int>::iterator j = choosing.begin();
+	for (int count =0; j !=choosing.end(); j++) { // wait until our turn i.e. have lowest ticket
+		while (*j);
+		while ((*j != 0) && ((*j < number[pid]) || ((*j == number[pid]) && (count < pid))));
+		count++;
+	}
+}
+
+void BakeryLock::release(int pid)
+{
+	number[pid] = 0; // release lock
+}
+
+void BakeryLock::setThreads(int newSize)
+{
+	threads = newSize;
+	number.resize(threads);
+	choosing.resize(threads);
+}
+
+
+/*
+BakeryLock lock;
+#define LOCKSTR "ticket lock"
+#define INIT() lock.ticket = lock.nowServing = 0
+#define ACQUIRE() lock.acquire()
+#define RELEASE() lock.release();
+*/
